@@ -300,6 +300,15 @@ footer{
   margin-left: 10px;
   font-size: 15px;
 }
+.promo__right__card p::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ec6b29;
+  margin-right: 10px;
+}
 @keyframes rotation {
   0%{transform: rotate(0)}
   100%{transform: rotate(360deg);}
