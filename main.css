@@ -49,6 +49,7 @@ body {
     position:absolute;
   }
  .about {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -308,6 +309,13 @@ footer{
   border-radius: 50%;
   background-color: #ec6b29;
   margin-right: 10px;
+}
+.orb-canvas{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+
 }
 @keyframes rotation {
   0%{transform: rotate(0)}
